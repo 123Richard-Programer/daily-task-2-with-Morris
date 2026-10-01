@@ -1,43 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Social Link Profile Card</title>
-  
-  <!-- This line loads the icons for the buttons -->
-
-  <link rel="stylesheet" href="https://cloudflare.com">
-  
-  <!-- Links our custom styles -->
-
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Flexbox Crash Course</title>
 </head>
 <body>
-
-  <div class="card">
-    
-    <div class="image-container">
-      <img src="./Images/my-photo.jpeg" alt="Profile Picture" class="profile-pic">
+    <!--here is my navigation area-->
+   <nav class="navbar">
+    <div class="container">
+        <!--here is the logo area-->
+<div class="logo">Richflo</div>
+<!--here is the links for the navigation-->
+<ul class="nav">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
     </div>
-    
-    <!-- Information Section -->
-
-    <h1 class="name">Richard FJ Kamara</h1>
-    <p class="subtitle">Website developer</p>
-    <div class="badge">Founder & Editor</div>
-    
-
-    <div class="action-button">
-      <a href="mailto:richardfjkamara@gmail.com" class="button">
-        <i class="far fa-envelope icon"></i> Email
-      </a>
-      <a href="https://twitter.com" class="button">
-        <i class="fab fa-twitter icon"></i> Twitter
-      </a>
+   </nav>
+   <!--Here is my header section-->
+   <header class="header">
+    <div class="container">
+<div>
+    <!--here is the heading paragraphy-->
+<h1><span>Richflo</span> Digital Solutions</h1>
+<!--here is the header paragraphy-->
+<p>We build ,deploy and market your business in and around the world.
+    We also make  individual and business present online with the require tools.
+</p>
+</div>
+<!--here is the image of the header area-->
+<img src="./Images/showcase.png" alt="">
     </div>
+   </header>
+   <!--here is the boxes area-->
+   <section class="boxes">
+<div class="container">
+    <!--here is the box items-->
 
-  </div>
-
+    <!--box #1 is here-->
+<div class="box">
+<h1>Website Developement</h1>
+<p>We build ,deploy a customise website that meet your business.
+We also make it  mobile responsive for both phone desktop user.
+</p>
+</div>
+<!--box #2 is here-->
+<div class="box">
+<h1>Conten Creation/Video Editing</h1>
+<p>We build ,deploy a customise website that meet your business.
+We also make it  mobile responsive for both phone desktop user.
+</p>
+</div>
+<!--box #3 is here-->
+<div class="box">
+<h1>Computer hardware&repairs</h1>
+<p>We build ,deploy a customise website that meet your business.
+We also make it  mobile responsive for both phone desktop user.
+</p>
+</div>
+</div>
+   </section>
+   <!--here is the footer area-->
+   <footer class="footer">
+<p>CopyRight&copy;2026 Richflo Digital Solutions</p>
+   </footer>
 </body>
 </html>
